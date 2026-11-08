@@ -1,0 +1,1 @@
+{"entry":"client/dist/index.html","managedCronJobs":[{"action":"refreshIdeas","description":"Daily consortium sweep: live market searches + personalized wild-idea synthesis, appended as a new batch.","id":"new-ideas-daily-sweep","schedule":"daily 07:36 America/New_York"}],"name":"New Ideas","platformVersion":28,"runtime":"typescript","slug":"new-ideas"}

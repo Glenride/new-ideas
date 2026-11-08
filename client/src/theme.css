@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@import "tailwindcss-safe-area";
+
+@theme {
+  --text-xs: 12px;
+  --text-xs--line-height: 16px;
+  --text-sm: 14px;
+  --text-sm--line-height: 20px;
+  --text-base: 16px;
+  --text-base--line-height: 24px;
+  --text-lg: 18px;
+  --text-lg--line-height: 28px;
+  --text-xl: 20px;
+  --text-xl--line-height: 28px;
+  --text-2xl: 24px;
+  --text-2xl--line-height: 32px;
+  --text-3xl: 30px;
+  --text-3xl--line-height: 36px;
+  --text-4xl: 36px;
+  --text-4xl--line-height: 40px;
+  --text-5xl: 48px;
+  --text-5xl--line-height: 52px;
+}
+
+:root {
+  color-scheme: light dark;
+  /* Broadsheet paper (light) */
+  --bg: #efe9d8;
+  --surface: #faf6ea;
+  --surface2: #f3edd9;
+  --text: #1a1c13;
+  --dim: #5d6250;
+  --border: #d5cdb2;
+  --accent: #5f7d0c;
+  --accent-ink: #2e3d05;
+  --heat: #bc4d1c;
+  --radius: 10px;
+  --space-surface: var(--surface);
+  --space-surface-alt: var(--surface2);
+  --space-muted: var(--dim);
+  --space-border: var(--border);
+  --space-accent: var(--accent);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Ink lab (dark) */
+    --bg: #0e100c;
+    --surface: #171a14;
+    --surface2: #1e221a;
+    --text: #ede8da;
+    --dim: #8a927e;
+    --border: #2b2f24;
+    --accent: #c8f04b;
+    --accent-ink: #141a04;
+    --heat: #e0682f;
+  }
+}
+
+.font-display {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia,
+    "Times New Roman", serif;
+}
+
+.font-data {
+  font-family: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas,
+    monospace;
+}
